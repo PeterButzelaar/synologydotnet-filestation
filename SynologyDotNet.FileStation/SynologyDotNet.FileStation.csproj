@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<NoWarn>1701;1702;1591</NoWarn>
+	</PropertyGroup>
+
+	<!-- General -->
+	<PropertyGroup>
+		<Product>SynologyDotNet.FileStation</Product>
+		<Version>0.1.0</Version>
+		<Description>SynologyDotNet.FileStation</Description>
+		<RepositoryUrl>https://github.com/geloczigeri/synologydotnet-filestation</RepositoryUrl>
+		<Authors>Peter Butzelaar</Authors>
+		<Copyright>Copyright © Peter Butzelaar 2022</Copyright>
+	</PropertyGroup>
+
+	<!-- Packaging -->
+	<PropertyGroup>
+		<PackageProjectUrl>https://github.com/geloczigeri/synologydotnet-filestation</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/geloczigeri/synologydotnet-filestation</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageTags>synology;dsm;filestation;synologydotnet;synologydotnet-filestation</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="SynologyDotNet.Core" Version="0.5.0" />
+	</ItemGroup>
+
+</Project>
